@@ -1,7 +1,7 @@
 import streamlit as st
 import requests as req
 
-backend_server_location = "http://127.0.0.1:8000"
+backend_server_location = "https://vignesh-deployment-backend.onrender.com"
 
 n = st.text_input("Name")
 e = st.text_input("email")
